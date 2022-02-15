@@ -1,11 +1,13 @@
-import React from 'react';
-import '../index'
+import React from 'react'
+import * as Styled from './styled'
+import { GlobalStyle } from '../GlobalStyle'
 
 function App() {
   return (
-    <div>
+    <Styled.Container>
+      <GlobalStyle />
       <h1>DEV VOYAGER</h1>
-    </div>
+    </Styled.Container>
   );
 }
 
