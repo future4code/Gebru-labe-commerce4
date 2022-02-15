@@ -1,11 +1,14 @@
 import React from 'react';
-import '../index'
+import '../index';
+import Header from '../components/secoes/Header';
+
 
 function App() {
   return (
     <div>
-      <h1>DEV VOYAGER</h1>
+       <Header /> 
     </div>
+   
   );
 }
 
