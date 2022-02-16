@@ -1,3 +1,4 @@
+import React from 'react'
 import * as Styled from './styled'
 
 const Button = props => {
@@ -5,7 +6,8 @@ const Button = props => {
         <Styled.Button 
         onClick={props.onClick}
         width={props.width}
-        height={props.height} >
+        height={props.height}
+        bigCard={props.bigCard} >
             {props.name}
         </Styled.Button>
     )

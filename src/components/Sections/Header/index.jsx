@@ -1,6 +1,6 @@
 import React from 'react';
-import Logo from '../../../img/LogoDevVoyager.png';
-import Carrinho from '../../../img/shopping-cart.svg';
+import Logo from '../../../assets/img/LogoDevVoyager.png';
+import Carrinho from '../../../assets/img/shopping-cart.svg';
 import { LogoHeader, LogoStyle, NavHome, StyleGeneral, Button } from './style';
 
 
