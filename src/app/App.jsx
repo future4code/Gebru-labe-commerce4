@@ -1,5 +1,4 @@
 import React from 'react';
-import '../index';
 import Header from '../components/secoes/Header';
 
 
