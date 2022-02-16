@@ -1,12 +1,12 @@
 import styled from 'styled-components';
 
 export const StyleGeneral = styled.div`
-display: flex;
+ display: flex;
+ flex-direction: row;
  justify-content: space-between;
  align-items: center;
  margin: 0;
  padding: 10px;
- border: 2px solid black;
  background-color: #170055`
 
 
@@ -14,6 +14,7 @@ export const LogoHeader = styled.img`
  width: auto;
  height:110px;
  cursor: pointer
+ 
 `
 export const LogoStyle = styled.div`
  background-color:#6605b6;
@@ -24,7 +25,7 @@ export const LogoStyle = styled.div`
 
 export const NavHome = styled.a`
  font-size: 30px;
- font-family: cooper;
+ font-family: Cooper-Black;
  text-decoration: none;
  color: #FFC600;
  font-weight: bold;
@@ -43,4 +44,10 @@ export const Button = styled.img`
  height: 45px;
  cursor: pointer;
  margin-right: 20px;
+ &:hover{
+     background-color: #f1ac0a;
+     transition: all 0.5s;
+ }
 `
+
+
