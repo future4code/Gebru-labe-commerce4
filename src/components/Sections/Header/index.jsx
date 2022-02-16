@@ -1,7 +1,8 @@
 import React from 'react';
 import Logo from '../../../assets/img/LogoDevVoyager.png';
-import Carrinho from '../../../assets/img/shopping-cart.svg';
+import ImagemCarrinho from '../../../assets/img/shopping-cart.svg';
 import { LogoHeader, LogoStyle, NavHome, StyleGeneral, Button } from './style';
+
 
 
  const Header = () => {
@@ -15,7 +16,7 @@ import { LogoHeader, LogoStyle, NavHome, StyleGeneral, Button } from './style';
         
        <NavHome rel='pagina-home' href='#'>Home</NavHome>
        
-      <a rel='pagina-carrinho' href='#'><Button src={Carrinho} alt="Ícone Carrinho de Compras" /></a>
+      <a rel='pagina-carrinho' href='#'><Button src={ImagemCarrinho} alt="Ícone Carrinho de Compras" /></a>
 
     </StyleGeneral>
   </div>
