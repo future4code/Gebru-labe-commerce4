@@ -6,7 +6,8 @@ const Input = props => {
         type={props.type}
         width={props.width}
         height={props.height}
-        fontSize={props.fontSize} />
+        fontSize={props.fontSize}
+        onChange={props.onChange} />
     )
 }
 
