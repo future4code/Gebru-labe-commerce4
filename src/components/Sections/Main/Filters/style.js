@@ -5,7 +5,7 @@ export const FiltersContainer = styled.div`
     display: flex;
     flex-direction: column;
     width: 100%;
-    color: #AE00FB;
+    color: #170055;
     border: 2px solid black;
     padding: 20px 0;
 `
