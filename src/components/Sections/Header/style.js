@@ -5,14 +5,13 @@ export const StyleGeneral = styled.div`
  flex-direction: row;
  justify-content: space-between;
  align-items: center;
- margin: 0;
- padding: 10px;
+ padding: 4px;
  background-color: #170055`
 
 
 export const LogoHeader = styled.img`
  width: auto;
- height:110px;
+ height: 80px;
  cursor: pointer
  
 `
@@ -25,7 +24,7 @@ export const LogoStyle = styled.div`
 
 export const NavHome = styled.a`
  font-size: 30px;
- font-family: Cooper-Black;
+ font-family: Cooper Black;
  text-decoration: none;
  color: #FFC600;
  font-weight: bold;
