@@ -4,7 +4,10 @@ export const CardContainer = styled.div`
     width: 15vw;
     display: grid;
     grid-template-rows: 70% 30%;
+    background-color: #3E00FF;
     border: 2px solid black;
+    border-radius: 8px;
+    box-shadow: inset 4px 4px 15px 0px #170055, 5px 5px 5px 0px #170055;
     margin: 10px;
 `
 
