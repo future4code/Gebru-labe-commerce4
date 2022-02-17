@@ -1,21 +1,25 @@
 import React from 'react';
-import Logo from '../../../img/LogoDevVoyager.png';
-import Carrinho from '../../../img/shopping-cart.svg';
-import { StyleGeneral, LogoStyle, LogoHeader, NavHome, ImgButton, Button } from './style';
+import Logo from '../../../assets/img/LogoDevVoyager.png';
+import ImagemCarrinho from '../../../assets/img/shopping-cart.svg';
+import { LogoHeader, LogoStyle, NavHome, StyleGeneral, Button } from './style';
+
 
 
  const Header = () => {
   return (
+  <div>
+
     <StyleGeneral>
       <LogoStyle>
-        <LogoHeader src={Logo} alt="logo da Página" />
+       <a rel='pagina-home' href='#'><LogoHeader src={Logo} alt="logo da Página" /></a>
       </LogoStyle>
         
-      <NavHome>Home</NavHome>
+       <NavHome rel='pagina-home' href='#'>Home</NavHome>
        
-      <Button><ImgButton src={Carrinho} alt="Ícone Carrinho de Compras" /></Button>
+      <a rel='pagina-carrinho' href='#'><Button src={ImagemCarrinho} alt="Ícone Carrinho de Compras" /></a>
 
     </StyleGeneral>
+  </div>
   )
 }
 
