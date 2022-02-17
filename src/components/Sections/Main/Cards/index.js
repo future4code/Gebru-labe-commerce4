@@ -1,5 +1,5 @@
 import React from "react";
-import cart from '../../../../img/shopping-cart.svg';
+import cart from '../../../../assets/img/shopping-cart.svg';
 import { CardContainer, ImgProduct, FooterCard, TitleProduct, ContentCard, Price, Button, ImgCart } from './style'
 
 export default class Cards extends React.Component {
