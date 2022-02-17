@@ -7,17 +7,11 @@ import Cards from './Cards'
 export default class Main extends React.Component {
     state = {
         products: productsList,
-        text: "",
         minPrice: "",
-        maxPrice: ""
+        maxPrice: "",
+        text: ""
     }
 
-    updateText = (ev) => {
-        this.setState({
-         text: ev.target.value
-        })
-     }
-  
      updateMinPrice = (ev) => {
         this.setState({
            minPrice: ev.target.value
@@ -27,6 +21,12 @@ export default class Main extends React.Component {
      updateMaxPrice = (ev) => {
         this.setState({
            maxPrice: ev.target.value
+        })
+     }
+     
+     updateText = (ev) => {
+        this.setState({
+         text: ev.target.value
         })
      }
 
