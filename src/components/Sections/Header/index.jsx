@@ -2,6 +2,7 @@ import React from 'react';
 import Logo from '../../../assets/img/LogoDevVoyager.png';
 import ImagemCarrinho from '../../../assets/img/shopping-cart.svg';
 import { LogoHeader, LogoStyle, NavHome, StyleGeneral, Button } from './style';
+import { Link } from 'react-router-dom';
 
 
 
@@ -11,12 +12,12 @@ import { LogoHeader, LogoStyle, NavHome, StyleGeneral, Button } from './style';
 
     <StyleGeneral>
       <LogoStyle>
-       <a rel='pagina-home' href='#'><LogoHeader src={Logo} alt="logo da Página" /></a>
+       <Link to='/home'><LogoHeader src={Logo} alt="logo da Página" /></Link>
       </LogoStyle>
         
-       <NavHome rel='pagina-home' href='#'>Home</NavHome>
+       <Link to='/home'><NavHome>Home</NavHome></Link>
        
-      <a rel='pagina-carrinho' href='#'><Button src={ImagemCarrinho} alt="Ícone Carrinho de Compras" /></a>
+       <Link to='/shoplist'><Button src={ImagemCarrinho} alt="Ícone Carrinho de Compras" /></Link>
 
     </StyleGeneral>
   </div>
