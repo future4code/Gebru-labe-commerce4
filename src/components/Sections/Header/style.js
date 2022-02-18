@@ -22,7 +22,7 @@ export const LogoStyle = styled.div`
  padding: 0%;
  `
 
-export const NavHome = styled.a`
+export const NavHome = styled.p`
  font-size: 30px;
  font-family: Cooper Black;
  text-decoration: none;

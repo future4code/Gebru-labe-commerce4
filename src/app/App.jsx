@@ -1,19 +1,15 @@
 import React from 'react';
-import Header from '../components/Sections/Header';
-import Main from '../components/Sections/Main';
-import Footer from '../components/Sections/Footer';
-import * as Styled from './styled';
-import { GlobalStyle } from '../GlobalStyle';
+import Home from '../pages/home';
+import Cart from '../pages/cart';
+import {Routes, Route} from 'react-router-dom';
 
 function App() {
   return (
     <>
-      <Styled.Container>
-        <GlobalStyle />
-        <Header />
-        <Main />
-        <Footer />
-      </Styled.Container>
+    <Routes>
+      <Route path="/home" element={<Home/>} />
+      <Route path="/shoplist" element={<Cart/>} />
+    </Routes>
     </>
   )
 }
