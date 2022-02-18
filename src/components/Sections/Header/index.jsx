@@ -12,10 +12,10 @@ import { Link } from 'react-router-dom';
 
     <StyleGeneral>
       <LogoStyle>
-       <Link to='/home'><LogoHeader src={Logo} alt="logo da Página" /></Link>
+       <Link to='/'><LogoHeader src={Logo} alt="logo da Página" /></Link>
       </LogoStyle>
         
-       <Link to='/home'><NavHome>Home</NavHome></Link>
+       <Link to='/'><NavHome>Home</NavHome></Link>
        
        <Link to='/shoplist'><Button src={ImagemCarrinho} alt="Ícone Carrinho de Compras" /></Link>
 
