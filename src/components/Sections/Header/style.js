@@ -5,7 +5,7 @@ export const StyleGeneral = styled.div`
  flex-direction: row;
  justify-content: space-between;
  align-items: center;
- padding: 4px;
+ padding: 5px 30px;
  background-color: #170055`
 
 
@@ -33,8 +33,10 @@ export const NavHome = styled.p`
      color:  #f1ac0a;
      border-bottom:  1px solid #f1ac0a;
      transition: 0.3s;
+    }   
  }
  `
+
 export const Button = styled.img`
  background-color: #6605b6;
  border: 2px solid black;

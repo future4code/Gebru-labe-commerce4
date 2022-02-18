@@ -1,7 +1,7 @@
 import React from 'react';
 import Logo from '../../../assets/img/LogoDevVoyager.png';
 import ImagemCarrinho from '../../../assets/img/shopping-cart.svg';
-import { LogoHeader, LogoStyle, NavHome, StyleGeneral, Button } from './style';
+import { LogoHeader, NavHome, StyleGeneral, Button } from './style';
 import { Link } from 'react-router-dom';
 
 
@@ -11,11 +11,10 @@ import { Link } from 'react-router-dom';
   <div>
 
     <StyleGeneral>
-      <LogoStyle>
+
        <Link to='/'><LogoHeader src={Logo} alt="logo da Página" /></Link>
-      </LogoStyle>
         
-       <Link to='/'><NavHome>Home</NavHome></Link>
+       <Link to='/'><NavHome>HOME</NavHome></Link>
        
        <Link to='/shoplist'><Button src={ImagemCarrinho} alt="Ícone Carrinho de Compras" /></Link>
 
