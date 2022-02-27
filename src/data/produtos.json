@@ -1,0 +1,86 @@
+[
+    {
+        "id": "001",
+        "title": "Camisa Astronauta Maluco",
+        "price": "49.90",
+        "imageUrl": "https://images2.imgbox.com/03/9f/SWgY4jAm_o.png",
+        "sold": "50" 
+    },
+    {
+        "id": "002",
+        "title": "Camisa Astronauta",
+        "price": "39.90",
+        "imageUrl": "https://images2.imgbox.com/43/e9/RxGi0F6B_o.png",
+        "sold": "55"
+    },
+    {
+        "id": "003",
+        "title": "Camisa Astronauta + ET",
+        "price": "69.00",
+        "imageUrl": "https://images2.imgbox.com/96/1e/nGIMvDKY_o.png",
+        "sold": "68"
+    },
+    {
+        "id": "004",
+        "title": "Camisa Montando o Ceu",
+        "price": "45.90",
+        "imageUrl": "https://images2.imgbox.com/86/c6/j5qj1Sti_o.png",
+        "sold": "69"
+    },
+    {
+        "id": "005",
+        "title": "Camisa Capacete Final Space",
+        "price": "49.00",
+        "imageUrl": "https://images2.imgbox.com/29/10/byz8FsMh_o.png",
+        "sold": "75"
+    },
+    {
+        "id": "006",
+        "title": "Camisa Mooncake",
+        "price": "85.00",
+        "imageUrl": "https://images2.imgbox.com/9e/40/oW4U5NGR_o.png",
+        "sold": "70"
+    },
+    {
+        "id": "007",
+        "title": "Camisa Futurama",
+        "price": "45.90",
+        "imageUrl": "https://images2.imgbox.com/b6/8f/rGgJYETr_o.png",
+        "sold": "59"
+    },
+    {
+        "id": "008",
+        "title": "Camisa Rick and Morthy",
+        "price": "99.90",
+        "imageUrl": "https://images2.imgbox.com/b4/64/Mq6DYHv3_o.png",
+        "sold": "95"
+    },
+    {
+        "id": "009",
+        "title": "Camisa Astronauta no Espaço",
+        "price": "89.00",
+        "imageUrl": "https://images2.imgbox.com/31/e1/SlUwdzoL_o.png",
+        "sold": "45"
+     },
+    {
+        "id": "010",
+        "title": "Camisa Surf no Espaço",
+        "price": " 95.00",
+        "imageUrl": "https://images2.imgbox.com/54/35/j9rXeEIS_o.png",
+        "sold": "49"
+    },
+    {
+        "id": "011",
+        "title": "Camisa Among US",
+        "price": "60.00",
+        "imageUrl": "https://images2.imgbox.com/d9/88/jQtYZid8_o.png",
+        "sold": "50"
+    },
+    {
+        "id": "012",
+        "title": "Camisa Sorvete Planetario",
+        "price": "100.00",
+        "imageUrl": "https://images2.imgbox.com/f1/2c/j7k95oAU_o.png",
+        "sold": "78"
+    }
+]
